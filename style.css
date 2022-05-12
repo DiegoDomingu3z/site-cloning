@@ -10,9 +10,10 @@ width: 40%;
 }
 
 .buttons-top{
-    width: auto;
+    width: 10rem;
+    height: 5rem;
     border-radius: 20%;
-    background-color: black;
+    background-color: rgb(112, 87, 87);
     color: yellow;
 }
 
@@ -20,5 +21,15 @@ width: 40%;
     text-align: center;
     height: 12rem;
     box-shadow: 2px 2px 3px 5px rgba(20,20,20,0.4);
-
 }
+
+.f1{
+    max-width: 70%;
+    max-height: 5070%;
+    align-items:center;
+}
+
+.button:hover{
+    filter: drop-shadow(0 0 15px rgb(62, 191, 163))
+}
+
